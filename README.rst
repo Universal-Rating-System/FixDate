@@ -1,47 +1,98 @@
+======
+DateId
+======
+
++-----------+------------------------------------------------------------------------------------+
+|**General**| |maintenance_y| |semver| |license|                                                 |
++-----------+------------------------------------------------------------------------------------+
+|**CI**     | |gh_ci| |codestyle| |codecov|                                                      |
++-----------+------------------------------------------------------------------------------------+
+|**PyPI**   | |pypi_release| |pypi_py_versions| |pypi_status| |pypi_format| |pypi_downloads|     |
++-----------+------------------------------------------------------------------------------------+
+|**Github** | |gh_issues| |gh_language| |gh_last_commit| |gh_deployment|                         |
++-----------+------------------------------------------------------------------------------------+
 Fix a date and present it in specified format
 
     Attempts to correct dates and convert to standard format
 
-=======
-Testing
-=======
+.. |maintenance_n| image:: https://img.shields.io/badge/Maintenance%20Intended-?-red.svg?style=flat-square
+    :target: http://unmaintained.tech/
+    :alt: Maintenance - not intended
 
-This project uses ``pytest`` to run tests and also to test docstring examples.
+.. |maintenance_y| image:: https://img.shields.io/badge/Maintenance%20Intended-%E2%9C%94-green.svg?style=flat-square
+    :target: http://unmaintained.tech/
+    :alt: Maintenance - intended
 
-Install the test dependencies.
+.. |license| image:: https://img.shields.io/pypi/l/DateId
+    :target: https://github.com/BrightEdgeeServices/DateId/blob/master/LICENSE
+    :alt: License
 
-.. code-block:: bash
+.. |semver| image:: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-brightgreen.svg?style=flat-square
+    :target: https://semver.org/
+    :alt: Semantic Versioning - 2.0.0
 
-    $ pip install -r requirements_test.txt
+.. |codestyle| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Code Style Black
 
-Run the tests.
 
-==========
-Developing
-==========
+.. CI
 
-This project uses ``black`` to format code and ``flake8`` for linting. We also support ``pre-commit`` to ensure these have been run. To configure your local environment please install these development dependencies and set up the commit hooks.
+.. |pre_commit_ci| image:: https://img.shields.io/github/actions/workflow/status/BrightEdgeeServices/DateId/pre-commit.yml?label=pre-commit
+    :target: https://github.com/BrightEdgeeServices/DateId/blob/master/.github/workflows/pre-commit.yml
+    :alt: Pre-Commit
 
-.. code-block:: bash
+.. |gh_ci| image:: https://github.com/BrightEdgeeServices/DateId/actions/workflows/01-pre-commit-and-document-check.yaml/badge.svg)
+    :target: https://github.com/BrightEdgeeServices/DateId/actions/workflows/01-pre-commit-and-document-check.yaml
+    :alt: Test status
 
-    $ pip install black flake8 pre-commit
-    $ pre-commit install
+.. |gha_docu| image:: https://img.shields.io/readthedocs/DateId
+    :target: https://github.com/BrightEdgeeServices/DateId/blob/master/.github/workflows/check-rst-documentation.yml
+    :alt: Read the Docs
 
-=========
-Releasing
-=========
+.. |codecov| image:: https://img.shields.io/codecov/c/github/BrightEdgeeServices/DateId
+   :alt: Codecov
+    :target: https://app.codecov.io/gh/BrightEdgeeServices/DateId
+    :alt: CodeCov
 
-Releases are published automatically when a tag is pushed to GitHub.
 
-.. code-block:: bash
+.. PyPI
 
-    # Set next version number
-    export RELEASE = x.x.x
+.. |pypi_release| image:: https://img.shields.io/pypi/v/DateId
+    :target: https://pypi.org/project/DateId/
+    :alt: PyPI - Package latest release
 
-    # Create tags
-    git commit --allow -empty -m "Release $RELEASE"
-    git tag -a $RELEASE -m "Version $RELEASE"
+.. |pypi_py_versions| image:: https://img.shields.io/pypi/pyversions/DateId
+    :target: https://pypi.org/project/DateId/
+    :alt: PyPI - Supported Python Versions
 
-    # Push
-    git push upstream --tags
+.. |pypi_format| image:: https://img.shields.io/pypi/wheel/DateId
+    :target: https://pypi.org/project/DateId/
+    :alt: PyPI - Format
 
+.. |pypi_downloads| image:: https://img.shields.io/pypi/dm/DateId
+    :target: https://pypi.org/project/DateId/
+    :alt: PyPI - Monthly downloads
+
+.. |pypi_status| image:: https://img.shields.io/pypi/status/DateId
+    :target: https://pypi.org/project/DateId/
+    :alt: PyPI - Status
+
+
+.. GitHub
+
+.. |gh_issues| image:: https://img.shields.io/github/issues-raw/BrightEdgeeServices/DateId
+    :target: https://github.com/BrightEdgeeServices/DateId/issues
+    :alt: GitHub - Issue Counter
+
+.. |gh_language| image:: https://img.shields.io/github/languages/top/BrightEdgeeServices/DateId
+    :target: https://github.com/BrightEdgeeServices/DateId
+    :alt: GitHub - Top Language
+
+.. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/DateId/master
+    :target: https://github.com/BrightEdgeeServices/DateId/commit/master
+    :alt: GitHub - Last Commit
+
+.. |gh_deployment| image:: https://img.shields.io/github/deployments/BrightEdgeeServices/DateId/pypi
+    :target: https://github.com/BrightEdgeeServices/DateId/deployments/pypi
+    :alt: GitHub - PiPy Deployment
