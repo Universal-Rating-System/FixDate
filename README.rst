@@ -11,6 +11,7 @@ DateId
 +-----------+------------------------------------------------------------------------------------+
 |**Github** | |gh_issues| |gh_language| |gh_last_commit| |gh_deployment|                         |
 +-----------+------------------------------------------------------------------------------------+
+
 Fix a date and present it in specified format
 
     Attempts to correct dates and convert to standard format
