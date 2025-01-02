@@ -1,5 +1,5 @@
 class TestCsvWrpr:
-    def test_(self):
+    def test_replace_with_actual_tests(self):
         x = 1
         y = 1
         assert x == y
