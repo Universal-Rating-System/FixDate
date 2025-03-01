@@ -5,7 +5,7 @@ DateId
 +-----------+------------------------------------------------------------------------------------+
 |**General**| |maintenance_y| |semver| |license|                                                 |
 +-----------+------------------------------------------------------------------------------------+
-|**CI**     | |gh_ci| |codestyle| |codecov|                                                      |
+|**CI**     | |codestyle| |codecov|                                                              |
 +-----------+------------------------------------------------------------------------------------+
 |**PyPI**   | |pypi_release| |pypi_py_versions| |pypi_status| |pypi_format| |pypi_downloads|     |
 +-----------+------------------------------------------------------------------------------------+
@@ -16,11 +16,14 @@ Fix a date and present it in specified format
 
     Attempts to correct dates and convert to standard format
 
-.. |maintenance_n| image:: https://img.shields.io/badge/Maintenance%20Intended-?-red.svg?style=flat-square
+
+.. General
+
+.. |maintenance_n| image:: https://img.shields.io/badge/Maintenance%20Intended-✖-red.svg?style=flat-square
     :target: http://unmaintained.tech/
     :alt: Maintenance - not intended
 
-.. |maintenance_y| image:: https://img.shields.io/badge/Maintenance%20Intended-%E2%9C%94-green.svg?style=flat-square
+.. |maintenance_y| image:: https://img.shields.io/badge/Maintenance%20Intended-✔-green.svg?style=flat-square
     :target: http://unmaintained.tech/
     :alt: Maintenance - intended
 
