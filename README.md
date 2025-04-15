@@ -9,6 +9,11 @@
 
 Template for Python projects.
 
+This is a forked version of [BrightEdge beetools](https://github.com/BrightEdgeeServices/beetools).
+Do not make changes to this version.
+Only make changes to the original unless it is to this README about the forked version
+or to automate the GitHub Actions to update this version from the original repository.
+
 [cicd_codestyle_img]: https://img.shields.io/badge/code%20style-black-000000.svg "Black"
 [cicd_codestyle_lnk]: https://github.com/psf/black "Black"
 [cicd_pre_commit_img]: https://img.shields.io/github/actions/workflow/status/hendrikdutoit/PoetryExample/pre-commit.yml?label=pre-commit "Pre-Commit"
